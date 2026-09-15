@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Get Involved | The Green Canopy Initiative</title>
+
+    <meta name="description"
+          content="Donate, volunteer or partner with The Green Canopy Initiative.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header class="site-header">
+
+    <div class="container nav-container">
+
+        <a href="index.html" class="brand">
+            <span class="brand-icon">🌿</span>
+
+            <span class="brand-text">
+                <strong>Green Canopy</strong>
+                <small>Initiative</small>
+            </span>
+        </a>
+
+        <button class="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+        <nav class="main-nav">
+
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Our Impact</a>
+            <a href="enquiry.html" class="active">Get Involved</a>
+            <a href="contact.html">Contact</a>
+
+            <a href="enquiry.html" class="nav-donate">
+                Support Our Work
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<!-- HERO -->
+
+<section class="page-hero action-hero">
+
+    <div class="container">
+
+        <span class="eyebrow light">GET INVOLVED</span>
+
+        <h1>
+            Your action can help
+            <em>grow the canopy.</em>
+        </h1>
+
+        <p>
+            There are many ways to contribute — from giving your time
+            to supporting a project or building a long-term partnership.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- OPTIONS -->
+
+<section class="section">
+
+    <div class="container">
+
+        <div class="section-heading centered">
+
+            <div>
+
+                <span class="eyebrow">CHOOSE YOUR PATH</span>
+
+                <h2>How would you like to help?</h2>
+
+            </div>
+
+            <p>
+                Every contribution matters, whether it is time, expertise,
+                resources or financial support.
+            </p>
+
+        </div>
+
+
+        <div class="action-grid">
+
+            <article class="action-card">
+
+                <span class="action-icon">🌱</span>
+
+                <h3>Donate</h3>
+
+                <p>
+                    Help us support tree planting, community activities
+                    and environmental education.
+                </p>
+
+                <a href="#involvement-form"
+                   class="text-link">
+                    I want to donate →
+                </a>
+
+            </article>
+
+
+            <article class="action-card featured-action">
+
+                <span class="action-icon">🙌</span>
+
+                <h3>Volunteer</h3>
+
+                <p>
+                    Give your time and energy to planting days,
+                    community events and environmental activities.
+                </p>
+
+                <a href="#involvement-form"
+                   class="text-link">
+                    I want to volunteer →
+                </a>
+
+            </article>
+
+
+            <article class="action-card">
+
+                <span class="action-icon">🤝</span>
+
+                <h3>Partner</h3>
+
+                <p>
+                    Organisations can support projects through funding,
+                    resources, expertise or strategic collaboration.
+                </p>
+
+                <a href="#involvement-form"
+                   class="text-link">
+                    I want to partner →
+                </a>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FORM -->
+
+<section class="section form-section" id="involvement-form">
+
+    <div class="container form-layout">
+
+        <div class="form-introduction">
+
+            <span class="eyebrow">LET'S CONNECT</span>
+
+            <h2>
+                Tell us how you'd like to get involved.
+            </h2>
+
+            <p>
+                Complete the form and our team can follow up with more
+                information about opportunities that match your interests.
+            </p>
+
+            <div class="form-note">
+
+                <strong>🌿 A quick note</strong>
+
+                <p>
+                    This demonstration form does not process real donations.
+                    Connect it to your preferred form service or backend
+                    before publishing it as a live fundraising website.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <form id="enquiryForm" novalidate>
+
+            <div class="form-row">
+
+                <div class="form-group">
+
+                    <label for="enquiryName">Full name</label>
+
+                    <input
+                        type="text"
+                        id="enquiryName"
+                        name="name"
+                        placeholder="Your full name"
+                        required>
+
+                    <span class="error"></span>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="enquiryEmail">Email address</label>
+
+                    <input
+                        type="email"
+                        id="enquiryEmail"
+                        name="email"
+                        placeholder="you@example.com"
+                        required>
+
+                    <span class="error"></span>
+
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="service">I would like to</label>
+
+                <select id="service"
+                        name="service"
+                        required>
+
+                    <option value="">Select an option</option>
+                    <option value="donate">Donate</option>
+                    <option value="volunteer">Volunteer</option>
+                    <option value="partner">Partner with the organisation</option>
+                    <option value="sponsor">Sponsor a tree planting project</option>
+
+                </select>
+
+                <span class="error"></span>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="enquiryMessage">Tell us more</label>
+
+                <textarea
+                    id="enquiryMessage"
+                    name="message"
+                    placeholder="Tell us a little about how you'd like to contribute..."
+                    required></textarea>
+
+                <span class="error"></span>
+
+            </div>
+
+
+            <button type="submit" class="btn btn-primary form-submit">
+                Send my enquiry →
+            </button>
+
+            <div id="enquirySuccess"
+                 class="success-message"
+                 role="status"
+                 aria-live="polite">
+            </div>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<footer class="site-footer">
+
+    <div class="container">
+
+        <div class="footer-grid">
+
+            <div class="footer-about">
+
+                <a href="index.html" class="brand footer-brand">
+
+                    <span class="brand-icon">🌿</span>
+
+                    <span class="brand-text">
+                        <strong>Green Canopy</strong>
+                        <small>Initiative</small>
+                    </span>
+
+                </a>
+
+                <p>
+                    Growing greener, healthier and more connected
+                    communities across Gauteng.
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Explore</h3>
+
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="services.html">Our Impact</a>
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Take Action</h3>
+
+                <a href="enquiry.html">Donate</a>
+                <a href="enquiry.html">Volunteer</a>
+                <a href="enquiry.html">Partner</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Contact</h3>
+
+                <p>Johannesburg, Gauteng</p>
+                <p>South Africa</p>
+
+                <a href="mailto:hello@greencanopy.org">
+                    hello@greencanopy.org
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>© 2026 The Green Canopy Initiative. All rights reserved.</p>
+            <p>Building a greener future, together.</p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
